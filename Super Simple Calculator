@@ -1,0 +1,7 @@
+import math
+class calculate():
+    choise = input('Do you want to use the calculator? y/n: ')
+    while choise.lower() != 'n':
+        X = input("Type your equation here : ")
+        print("Your Answer is : ", eval(X))
+        choise = input('Do you want to use the calculator again?: y/n')
