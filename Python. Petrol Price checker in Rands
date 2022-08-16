@@ -1,0 +1,11 @@
+Litres = input("litres per 100km")
+dis = input("distance traveled in km")
+cost = input("cost per litre of petrol")
+
+kmlitres = float(Litres) / 100 # litres per km 
+
+travlitres= float(dis) * float(kmlitres) # distance per litre
+
+trip = float(travlitres) * float(cost) # cost of the trip 
+
+print(f"cost of the trip, R{trip}")
